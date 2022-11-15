@@ -1,0 +1,15 @@
+.logo-container{
+    height: 100px;
+    width: 100px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+}
+.logo{
+    height: 72px;
+    width: 72px;    
+}

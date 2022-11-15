@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Button from "./Components/Button/Button";
+import ContainerInfo from "./Components/ContainerInfo/ContainerInfo";
+import Description from "./Components/Description/Description";
+import Layout from "./Components/Layout/Layout";
+import Logo from "./Components/Logo/Logo";
+import Title from "./Components/Title/Title";
+import { FaGooglePlay } from "react-icons/fa";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <Title>JugaYa</Title>
+      <ContainerInfo>
+        <Logo logo={"/logo.png"}></Logo>
+        <Description>Reserva de canchas</Description>
+        <Button icon={FaGooglePlay}>Google Play</Button>
+      </ContainerInfo>
+    </Layout>
   );
 }
 
