@@ -3,7 +3,7 @@ import "./Button.css";
 
 const Button = ({ children, onClick, icon:Icon }) => {
   return (
-    <div className="button-container">
+    <div className="button-container" onClick={onClick}>
       <div className="container-logo">
         <Icon className="icon-button" />
       </div>
