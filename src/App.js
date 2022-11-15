@@ -1,4 +1,3 @@
-import "./App.css";
 import Button from "./Components/Button/Button";
 import ContainerInfo from "./Components/ContainerInfo/ContainerInfo";
 import Layout from "./Components/Layout/Layout";
