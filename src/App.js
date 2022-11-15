@@ -5,7 +5,7 @@ import Description from "./Components/Description/Description";
 import Layout from "./Components/Layout/Layout";
 import Logo from "./Components/Logo/Logo";
 import Title from "./Components/Title/Title";
-import { FaGooglePlay } from "react-icons/fa";
+import { FaGooglePlay, FaApple } from "react-icons/fa";
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
         <Logo logo={"/logo.png"}></Logo>
         <Description>Reserva de canchas</Description>
         <Button icon={FaGooglePlay}>Google Play</Button>
+        <Button icon={FaApple}>JugaYa.ar</Button>
       </ContainerInfo>
     </Layout>
   );

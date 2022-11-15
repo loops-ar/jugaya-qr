@@ -1,0 +1,49 @@
+.button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 80%;
+  background-color: rgb(26, 36, 58);
+  border-radius: 16px;
+  padding: 6px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 12px;
+}
+.container-logo {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+  margin-left: 16px;
+}
+
+.icon-button {
+  height: 32px;
+  width: 32px;
+  margin-right: 8px;
+  color: #fff;
+}
+
+.container-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+}
+
+.span-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.span-smartphone {
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+}
