@@ -16,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "upload": "yarn build && cd build && mv index.html 200.html && surge --domain=jugaya-qr.surge.sh ."
   },
   "eslintConfig": {
     "extends": [
