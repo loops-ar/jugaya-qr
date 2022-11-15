@@ -1,6 +1,6 @@
 .logo-container{
-    height: 100px;
-    width: 100px;
+    height: 142px;
+    width: 142px;
     border-radius: 16px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     background-color: #fff;  
@@ -10,6 +10,6 @@
     margin-top: -50px;
 }
 .logo{
-    height: 72px;
-    width: 72px;    
+    height: 112px;
+    width: 112px;    
 }

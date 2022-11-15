@@ -9,7 +9,7 @@
   border-radius: 16px;
   padding: 6px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 .container-logo {
   height: 100%;
@@ -47,3 +47,16 @@
   font-weight: 500;
   color: #fff;
 }
+
+@media (max-width: 600px) {
+    .span-text{
+        font-size: 12px;
+    }
+    .span-smartphone{
+        font-size: 18px;
+    }
+    .icon-button{
+        height: 24px;
+        width: 24px;
+    }
+  }

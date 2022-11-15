@@ -5,7 +5,15 @@
     justify-content: center;
     height: 100%;
     width: 40%;
+    max-width: 380px;
     background-color: #fff;
     border-radius: 16px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding-bottom: 24px;
+}
+
+@media (max-width: 600px) {
+    .container-info{
+        width: 80%;
+    }
 }
