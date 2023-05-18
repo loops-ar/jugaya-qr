@@ -1,15 +1,17 @@
 .logo-container{
-    height: 142px;
-    width: 142px;
-    border-radius: 16px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-    background-color: #fff;  
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -50px;
+    margin: 60px 0 24px 0;
 }
 .logo{
-    height: 112px;
-    width: 112px;    
+    height: 72px;
+    width: 72px;
+}
+
+.name{
+    font-size: 48px;
+    font-weight: 700;
+    margin-left: 12px;
+    text-align: center;
 }
