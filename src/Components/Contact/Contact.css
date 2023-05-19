@@ -1,14 +1,6 @@
 .contact-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto;
   justify-content: center;
-  gap: 48px;
-  margin-top: 20px;
-}
-
-.icon {
-    height: 48px;
-    width: 48px;
-    cursor: pointer;
+  gap: 28px;
 }

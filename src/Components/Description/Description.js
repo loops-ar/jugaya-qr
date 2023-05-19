@@ -1,12 +1,8 @@
 import React from "react";
 import "./Description.css";
 
-const Description = ({children}) => {
-    return (
-        <div className="description-container">
-            <span className="description">{children}</span>
-        </div>
-    );
-}
+const Description = ({ children }) => {
+  return <span className="description">{children}</span>;
+};
 
 export default Description;

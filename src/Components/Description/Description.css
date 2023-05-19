@@ -1,9 +1,6 @@
-.description-container {
-  margin-top: 12px;
-    margin-bottom: 40px; 
-}
-
 .description {
+  display: block;
+  text-align: center;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;

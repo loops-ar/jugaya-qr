@@ -3,25 +3,23 @@ import "./Buttons.css";
 
 function Buttons() {
   return (
-    <div className="buttons-container">
-      <img
-        className="image"
-        src={"img-playstore.svg"}
-        alt="playstore"
-        onClick={() => {
-          window.location.href =
-            "https://play.google.com/store/apps/details?id=ar.jugaya.twa";
-        }}
-      ></img>
-      <button
+    <>
+      <a
+        href="https://play.google.com/store/apps/details?id=ar.jugaya.twa"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="image" src="/playstore.png" alt="playstore"></img>
+      </a>
+      <a
+        href="https://jugaya.ar/"
+        target="_blank"
         className="button"
-        onClick={() => {
-          window.location.href = "https://jugaya.ar/";
-        }}
+        rel="noreferrer"
       >
         VERSION WEB
-      </button>
-    </div>
+      </a>
+    </>
   );
 }
 

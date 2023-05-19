@@ -1,17 +1,8 @@
-.logo-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 60px 0 24px 0;
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.logo{
-    height: 72px;
-    width: 72px;
-}
-
-.name{
-    font-size: 48px;
-    font-weight: 700;
-    margin-left: 12px;
-    text-align: center;
+.logo {
+  height: 76px;
 }
